@@ -1,16 +1,73 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CareerConnect
 
-Currently, two official plugins are available:
+CareerConnect is a responsive job recruitment and job listing application built with React JS. It helps job seekers explore job opportunities, view job details, save interesting jobs and submit applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website
 
-## React Compiler
+https://careerconnect-sepia.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/kairosachi-lab/careerconnect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive homepage
+- Job listings and search
+- Job filtering by category, location and type
+- Job details pages
+- Save jobs for later
+- Job application form with validation
+- Contact form with validation
+- About page
+- Dark mode and light mode
+- LocalStorage for saving application data, messages, saved jobs and theme preference
+
+## Technologies Used
+
+- React JS
+- Vite
+- JavaScript
+- CSS
+- React Router
+- Lucide React Icons
+- Browser LocalStorage
+
+## React Concepts Implemented
+
+- Functional components
+- JSX
+- Props
+- useState
+- useEffect
+- useContext
+- Event handling
+- Form handling and validation
+- React Router
+- Array methods such as map()
+- LocalStorage
+
+## Installation
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL displayed in your terminal.
+
+## Production Build
+
+Run:
+
+npm run build
+
+## Project Limitations
+
+This is a frontend demonstration project. Job listings use sample data, and applications and contact messages are stored locally in the browser. It is not connected to a live recruitment database or email service.
